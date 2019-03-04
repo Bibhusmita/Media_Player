@@ -1,0 +1,62 @@
+
+/* 
+    Created on : 30 Jul, 2018, 1:50:32 AM
+    Author     : Bibhusmita
+*/
+.button {
+    -fx-background-color: transparent;
+}
+#openFile {
+    -fx-background-image: url("../images/folder.png");
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#playPause {
+    -fx-background-image: url("../images/playpause.png");
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+
+
+
+#stopButton {
+    -fx-background-image: url("../images/stop.png");
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+
+
+#exitButton {
+    -fx-background-image: url("../images/exit.png");
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#mute {
+    -fx-background-image: url("../images/unmute.png");
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#pane {
+    
+    -fx-background-color: black;
+}
+
+
+#seeks {
+    -fx-opacity: 0.1;
+}
+
+
+#seeks:hover {
+    -fx-opacity: 1;
+}
